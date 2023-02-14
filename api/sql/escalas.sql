@@ -13,7 +13,7 @@ CREATE TABLE escala_intervalos (
   PRIMARY KEY (id)
 )
 
-INSERT INTO `escala_intervalos` ( `id_intervalo`, `orden`, `id_escala`) VALUES ( 1, 1);
+INSERT INTO `escala_intervalos` ( `id_intervalo`, `orden`, `id_escala`) VALUES ( 1, 1, 1);
 INSERT INTO `escala_intervalos` ( `id_intervalo`, `orden`, `id_escala`) VALUES ( 3, 2, 1);
 INSERT INTO `escala_intervalos` ( `id_intervalo`, `orden`, `id_escala`) VALUES ( 5, 3, 1);
 INSERT INTO `escala_intervalos` ( `id_intervalo`, `orden`, `id_escala`) VALUES ( 6, 4, 1);

@@ -20,7 +20,7 @@ router.get("/escalas/:escala", async (req, res) => {
   res.send(escala);
 });
 
-router.post("/escala/", async (req, res) => {
+router.post("/detectarEscala/", async (req, res) => {
 
   const { semitonos } = req.body;
 
